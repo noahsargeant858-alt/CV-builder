@@ -111,7 +111,7 @@ const body = [
   sub("Including History (7), Business (6), Maths (5) and English Language (4)"),
 
   section("Trading & Markets Experience"),
-  entry("Funded Trader — Alpha Futures ($50,000 funded account)", "[Month Year] – [Month Year]", { before: 40 }),
+  entry("Independent Forex Trader — Alpha Futures funded account", "Apr 2025 – Present", { before: 40 }),
   bullet("Passed Alpha Futures' evaluation to qualify for a $50,000 funded account, hitting the profit target within the firm's risk rules."),
   bullet("Returned 8% in three months, trading only GBP/USD and EUR/GBP — a deliberately narrow focus on two sterling markets."),
   bullet("Worked to a 1% maximum daily and 2% maximum weekly drawdown, treating capital preservation as the first constraint on every trade."),
