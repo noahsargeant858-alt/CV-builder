@@ -1,0 +1,4 @@
+node_modules/
+# Private: phone number, and the built CV that contains it (this repo is public)
+contact.json
+output/

@@ -1,0 +1,7 @@
+{
+  "name": "cv-builder",
+  "private": true,
+  "description": "Noah Sargeant's graduate finance CV, generated as a Word document",
+  "scripts": { "build": "node build_cv.js" },
+  "dependencies": { "docx": "^9.5.1" }
+}
