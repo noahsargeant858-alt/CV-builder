@@ -130,15 +130,16 @@ const body = [
     "IRR, disclosed all AI use, and kept every submitted calculation and judgement my own."),
 
   section("Client Service Experience"),
-  entry("Waiter / Host — Fischers at Baslow Hall (Michelin-starred)", "[Dates]", { before: 40 }),
+  // Reverse chronological. Dates are approximate (worked back from Noah's age at each job).
+  entry("Front of House / Barista — Devonshire Arms, Beeley", "2023 – 2024", { before: 40 }),
+  bullet("Rotated across bar, floor and barista roles in a busy gastro-pub, balancing competing priorities under pressure."),
+  entry("Front of House / Bar Staff — Brocco on the Park, Sheffield", "2022 – 2023"),
+  bullet("Led the main bar in a boutique hotel and restaurant; fully trained in cocktail preparation and high-standard drinks service at pace."),
+  entry("Café Assistant — Chatsworth Carriage House Café", "2022"),
+  bullet("Handled cash and card payments at the till and worked across front- and back-of-house in a high-footfall visitor attraction."),
+  entry("Waiter / Host — Fischers at Baslow Hall (Michelin-starred)", "Summer 2021"),
   bullet("Guided guests through a Michelin-starred tasting menu, tailoring wine-pairing recommendations to each guest from detailed product knowledge."),
   bullet("Ran a 20-cover restaurant floor independently during quieter shifts, owning service standards from greeting to close."),
-  entry("Front of House / Bar Staff — Brocco on the Park, Sheffield", "[Dates]"),
-  bullet("Led the main bar in a boutique hotel and restaurant; fully trained in cocktail preparation and high-standard drinks service at pace."),
-  entry("Front of House / Barista — Devonshire Arms, Beeley", "[Dates]"),
-  bullet("Rotated across bar, floor and barista roles in a busy gastro-pub, balancing competing priorities under pressure."),
-  entry("Café Assistant — Chatsworth Carriage House Café", "[Dates]"),
-  bullet("Handled cash and card payments at the till and worked across front- and back-of-house in a high-footfall visitor attraction."),
 
   section("Skills"),
   bullet(" DCF appraisal (NPV, IRR, payback), WACC and optimal capital structure, CAPM and beta, portfolio theory, working-capital analysis.", "Financial analysis:"),
