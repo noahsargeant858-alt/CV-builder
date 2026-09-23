@@ -75,10 +75,11 @@ const header = [
     alignment: AlignmentType.CENTER, spacing: { after: 60 },
     children: [
       ...contactLine.flatMap((c, i) => [...(i ? [new TextRun({ text: "  |  ", font: FONT, size: BODY, color: "808080" })] : []), ...runs(c)]),
-      new TextRun({ text: "  |  ", font: FONT, size: BODY, color: "808080" }),
+      // LinkedIn only appears once contact.json has a "linkedin" URL.
       ...(contact.linkedin
-        ? [new ExternalHyperlink({ link: contact.linkedin, children: [new TextRun({ text: contact.linkedin.replace(/^https?:\/\/(www\.)?/, ""), font: FONT, size: BODY, style: "Hyperlink" })] })]
-        : runs("[LinkedIn URL]")),
+        ? [new TextRun({ text: "  |  ", font: FONT, size: BODY, color: "808080" }),
+          new ExternalHyperlink({ link: contact.linkedin, children: [new TextRun({ text: contact.linkedin.replace(/^https?:\/\/(www\.)?/, ""), font: FONT, size: BODY, style: "Hyperlink" })] })]
+        : []),
     ],
   }),
 ];
